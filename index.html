@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maratona Explorer</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div id="conteiner">
+      <!-- tag img é para imagem e o atributo src é onde existe essa imagem ( o link) e o alt serve para tres objetivos se essa imagem estiver erro, outro para acessibilidabe e o outro para pesquisas. -->
+      <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Imagem de uma bola de cristal.">
+      <!-- tag h1 é título -->
+      <h1>Vou revelar seu destino!</h1>
+      <!-- tag p é paragrafo -->
+      <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+      <!-- tag input é onde irá ocorrer a interação com o usuário, o placeholder irá adicionar um algo dentro da caixa  -->
+      <input id="inputPergunta" type="text" placeholder="Digite sua pergunta">
+      <!-- tag button é um botão -->
+      <button id="buttonPerguntar" onclick="fazerPergunta()">Fazer Pergunta</button>
+
+      <h3 id="resposta"></h3>
+    </div>
+  </body>
+
+</html>
